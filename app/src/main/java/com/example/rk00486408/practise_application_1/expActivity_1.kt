@@ -64,8 +64,8 @@ class expActivity_1 : AppCompatActivity() {
                     // for the end part
                 } else {
                     sw_1.setChecked(false)
-                    sw_2.setChecked(false)
-                    sw_3.setChecked(false) 
+                    sw_2.setChecked(false) 
+                    sw_3.setChecked(false)
                     tv_main.text = "level 0"
                     // for the start part
                 }
