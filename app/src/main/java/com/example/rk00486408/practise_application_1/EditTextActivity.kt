@@ -41,7 +41,7 @@ class EditTextActivity : AppCompatActivity() {
 
         btn.setOnClickListener({
 
-//            println("The Button has been clicked")
+            //            println("The Button has been clicked")
 //            tv_result.text = if (edittext.text != null && edittext.text.length > 0) {
 //                edittext.text
 //            } else {
@@ -59,7 +59,11 @@ class EditTextActivity : AppCompatActivity() {
 //            println(edittext1.text)
 //            println(edittext2.text)
 
-            tv_header.text = if(str1.equals(str2)) {"Matches"} else {"Not Matching"}
+            tv_header.text = if (str1.equals(str2)) {
+                "Matches"
+            } else {
+                "Not Matching"
+            }
 
         })
 
@@ -82,7 +86,11 @@ class EditTextActivity : AppCompatActivity() {
 //            println(edittext1.text)
 //            println(edittext2.text)
 
-                tv_header.text = if(str1.equals(str2)) {"Matches"} else {"Not Matching"}
+                tv_header.text = if (str1.equals(str2)) {
+                    "Matches"
+                } else {
+                    "Not Matching"
+                }
             }
 
         })
@@ -105,7 +113,11 @@ class EditTextActivity : AppCompatActivity() {
 //            println(edittext1.text)
 //            println(edittext2.text)
 
-                tv_header.text = if(str1.equals(str2)) {"Matching Now"} else {"Not Matching"}
+                tv_header.text = if (str1.equals(str2)) {
+                    "Matching Now"
+                } else {
+                    "Not Matching"
+                }
             }
 
         })
