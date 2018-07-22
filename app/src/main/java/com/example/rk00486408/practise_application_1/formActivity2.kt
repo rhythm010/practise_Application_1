@@ -12,7 +12,6 @@ import org.w3c.dom.Text
 
 class formActivity2 : AppCompatActivity() {
 
-
     lateinit var rg_toss: RadioGroup
 
     lateinit var rb_heads: RadioButton
@@ -40,21 +39,7 @@ class formActivity2 : AppCompatActivity() {
 
         tv_result = findViewById(R.id.tv_result) as TextView
 
-
         tv_result.text = "Hello Brother Again"
-
-
-
-//rg_toss.setOnCheckedChangeListener{ group, checkedId ->
-//    println("This is being checked")
-//    println(group)
-//    println(checkedId)
-//}
-
-//        bt_toss.setOnClickListener(View.OnClickListener {
-//
-//
-//        })
 
         rg_toss.setOnClickListener(View.OnClickListener {
             println("Something is cliked here")

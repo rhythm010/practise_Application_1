@@ -22,16 +22,17 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
-        <activity android:name=".spinnerActivity"></activity>
-        <activity android:name=".seekBarActivity">
+        <activity android:name=".spinnerActivity" />
+        <activity android:name=".seekBarActivity" />
+        <activity android:name=".expActivity_1"></activity>
+        <activity android:name=".textOverflow">
         </activity>
-        <activity android:name=".expActivity_1">
-
+        <activity android:name=".AutoComplete">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
